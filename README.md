@@ -2,8 +2,8 @@
 
 ### Natijalar
 
--Topshiriq 3
+- [ ] Topshiriq 3
 ![Description](assets/homework_3.png)
 
--Topshiriq 4
+- [ ] Topshiriq 4
 ![Description](assets/homework_4.png)
