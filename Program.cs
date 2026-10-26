@@ -1,47 +1,115 @@
-﻿// 1-Masala
-using System.Globalization;
+﻿using System.Globalization;
 
-// 2-Masala;
+//// 1-Masala
+// string language = "C#";
+// int age = 25;
+// double height = 5.9;
+// decimal price = 19.99m;
+// char className = 'B';
+// bool ismarried = false;
+// long population = 5000000000;
 
-// int a = 5;
-// a = 10;
+// Console.WriteLine("Language: " + language);
+// Console.WriteLine("Age: " + age);
+// Console.WriteLine("Height: " + height);
+// Console.WriteLine("Price: " + price);
+// Console.WriteLine("Class Name: " + className);
+// Console.WriteLine("Is Married: " + ismarried);
+// Console.WriteLine("Population: " + population);
 
-// var b = "15";
-// b = "20";
+// // 2-Masala;
 
-// const float pi = 3.14f;
+// int minutes = 20;
+// var sessionCount = 3;
+// const int minutesInHour = 60;
+// string topic = "C#";
 
-// 3-Masala
-int yigindi = 18 + 7;
-Console.WriteLine("Yig'indi: " + yigindi);
-int ayirma = 18 - 7;
-Console.WriteLine("Ayirma: " + ayirma);
-int kopaytma = 18 * 7;
-Console.WriteLine("Ko'paytma: " + kopaytma);
-int bolinish = 18 / 7;
-Console.WriteLine("Bolinish: " + bolinish);
-int qoldiq = 18 % 7;
-Console.WriteLine("Qoldiq: " + qoldiq);
-float floatBolinish = 18f / 4;
-Console.WriteLine("Float Bolinish: " + floatBolinish);
-int amallarTartibi = 2 + 3 * 4;
-Console.WriteLine("Amallar tartibi: " + amallarTartibi);
-int qavsliAmallar = (2 + 3) * 4;
-Console.WriteLine("Qavsli amallar: " + qavsliAmallar);
+// minutes = 25;
+// int copiedMinutes = minutes + 5;
+// string copiedTopic = "SQL";
 
-// 4-Masala
-int practiceMinutes = 12;
-Console.WriteLine(practiceMinutes);
+// Console.WriteLine("Actual: " + minutes);
+// Console.WriteLine("Total Minutes: " + sessionCount * minutesInHour);
+// Console.WriteLine($"Minutes original/copy: {minutes}, {copiedMinutes}");
+// Console.WriteLine($"Topic original/copy: {topic}, {copiedTopic}");
 
-practiceMinutes += 8;
-Console.WriteLine(practiceMinutes);
-practiceMinutes -= 2;
-Console.WriteLine(practiceMinutes);
-practiceMinutes *= 3;
-Console.WriteLine(practiceMinutes);
-practiceMinutes /= 4;
-Console.WriteLine(practiceMinutes);
-practiceMinutes ++;
-Console.WriteLine(practiceMinutes);
-practiceMinutes --;
-Console.WriteLine(practiceMinutes);
+
+// // 3-Masala
+// int yigindi = 18 + 7;
+// int ayirma = 18 - 7;
+// int kopaytma = 18 * 7;
+// int bolinish = 18 / 7;
+// int qoldiq = 18 % 7;
+// float floatBolinish = 18f / 4;
+// int amallarTartibi = 2 + 3 * 4;
+// int qavsliAmallar = (2 + 3) * 4;
+
+// Console.WriteLine("Yig'indi: " + yigindi);
+// Console.WriteLine("Ayirma: " + ayirma);
+// Console.WriteLine("Ko'paytma: " + kopaytma);
+// Console.WriteLine("Bolinish: " + bolinish);
+// Console.WriteLine("Qoldiq: " + qoldiq);
+// Console.WriteLine("Float Bolinish: " + floatBolinish);
+// Console.WriteLine("Amallar tartibi: " + amallarTartibi);
+// Console.WriteLine("Qavsli amallar: " + qavsliAmallar);
+
+// //4-Masala
+// int practiceMinutes = 12;
+// Console.WriteLine(practiceMinutes);
+
+// practiceMinutes += 8;
+// Console.WriteLine(practiceMinutes);
+// practiceMinutes -= 2;
+// Console.WriteLine(practiceMinutes);
+// practiceMinutes *= 3;
+// Console.WriteLine(practiceMinutes);
+// practiceMinutes /= 4;
+// Console.WriteLine(practiceMinutes);
+// practiceMinutes ++;
+// Console.WriteLine(practiceMinutes);
+// practiceMinutes --;
+// Console.WriteLine(practiceMinutes);
+
+// // 5-Masala
+// int son = 30;
+// double son2 = 9.7;
+// int son3 = 7;
+// int son4 = 2;
+
+// int intSon2 = (int)son2;
+// int convertedSon2 = Convert.ToInt32(son2);
+// double son5 = ((double)son3 / son4);
+// double son6 = (double)(7 / 2);
+
+// Console.WriteLine(son);
+// Console.WriteLine(intSon2);
+// Console.WriteLine(convertedSon2);
+// Console.WriteLine(son5);
+// Console.WriteLine(son6);
+
+// // 6-Masala
+// string matnliSon1 = "48", matnliSon2 = "3.75", matnliSon3 = "9.90";
+// int natija1 = Convert.ToInt32(matnliSon1);
+// int natija2 = int.Parse(matnliSon1);
+// double natija3 = double.Parse(matnliSon2, CultureInfo.InvariantCulture);
+// decimal natija4 = decimal.Parse(matnliSon3, CultureInfo.InvariantCulture);
+
+// Console.WriteLine(natija1);
+// Console.WriteLine(natija2);
+// Console.WriteLine(natija3);
+// Console.WriteLine(natija4);
+
+// // 7-Masala
+// string rawTopic = "  Learn C#  ";
+
+// string cleanedTopic = rawTopic.Trim();
+// Console.WriteLine($"Original length: {rawTopic.Length}");
+// Console.WriteLine($"Clean topic: '{cleanedTopic}'");
+// Console.WriteLine($"Cleaned length: {cleanedTopic.Length}");
+// Console.WriteLine($"Uppercase: {cleanedTopic.ToUpper()}");
+// Console.WriteLine($"Contains 'C#': {cleanedTopic.Contains("C#")}");
+// Console.WriteLine($"Replacement: {cleanedTopic.Replace("C#", ".NET")}");
+// bool result = string.IsNullOrWhiteSpace(rawTopic);
+// Console.WriteLine($"Blank input:: {result}");
+
+// 8-Masala
