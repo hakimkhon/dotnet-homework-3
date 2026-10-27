@@ -19,3 +19,15 @@
 
 - [ ] Topshiriq 6
 ![Description](assets/homework_6.png)
+
+- [ ] Topshiriq 7
+![Description](assets/homework_7.png)
+
+- [ ] Topshiriq 8
+![Description](assets/homework_8.png)
+
+- [ ] Topshiriq 9
+![Description](assets/homework_9.png)
+
+- [ ] Topshiriq 10
+![Description](assets/homework_10.png)
