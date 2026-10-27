@@ -146,19 +146,79 @@ using System;
 // System.Console.WriteLine(realTime >= planTime);
 // System.Console.WriteLine(realTime <= planTime);
 
-// 10-Masala
-string mavzu = "C#";
-int rejaDaqiqa = 40; 
-int sarfDaqiqa = 40;
-decimal narx = 12.50m;
-const int birSoat = 60;
+// // 10-Masala
+// string mavzu = "C#";
+// int rejaDaqiqa = 40; 
+// int sarfDaqiqa = 40;
+// decimal narx = 12.50m;
+// const int birSoat = 60;
 
-System.Console.WriteLine($"Topic: {mavzu}");
-System.Console.WriteLine($"Planned: {rejaDaqiqa} minuts");
-System.Console.WriteLine($"Actual: {sarfDaqiqa} minuts");
-System.Console.WriteLine($"Remaining: {rejaDaqiqa - sarfDaqiqa} minuts");
-System.Console.WriteLine($"Cost: {Math.Round(narx / birSoat * sarfDaqiqa, 2)}");
-System.Console.WriteLine($"Goal met: {rejaDaqiqa <= sarfDaqiqa}");
-System.Console.WriteLine($"Within plan: {rejaDaqiqa >= sarfDaqiqa}");
-System.Console.WriteLine($"Needs more time: {rejaDaqiqa > sarfDaqiqa}");
+// System.Console.WriteLine($"Topic: {mavzu}");
+// System.Console.WriteLine($"Planned: {rejaDaqiqa} minuts");
+// System.Console.WriteLine($"Actual: {sarfDaqiqa} minuts");
+// System.Console.WriteLine($"Remaining: {rejaDaqiqa - sarfDaqiqa} minuts");
+// System.Console.WriteLine($"Cost: {Math.Round(narx / birSoat * sarfDaqiqa, 2)}");
+// System.Console.WriteLine($"Goal met: {rejaDaqiqa <= sarfDaqiqa}");
+// System.Console.WriteLine($"Within plan: {rejaDaqiqa >= sarfDaqiqa}");
+// System.Console.WriteLine($"Needs more time: {rejaDaqiqa > sarfDaqiqa}");
 
+// // 11-Masala
+// System.Console.Write("sekundni kiriting:");
+// string sekund = System.Console.ReadLine();
+// int soat, minut, sekundlar;
+// soat = int.Parse(sekund) / 3600;
+// minut = (int.Parse(sekund) % 3600) / 60;
+// sekundlar = int.Parse(sekund) % 60;
+
+// System.Console.WriteLine($"Hours: {soat}");
+// System.Console.WriteLine($"Minutes: {minut}");
+// System.Console.WriteLine($"Seconds: {sekundlar}");
+// System.Console.WriteLine($"Reconstructed seconds: {sekund}");
+
+// // 12-Masala
+// System.Console.Write("Selsiy bo'yicha haroratni kiriting: ");
+// string selsiy = System.Console.ReadLine();
+
+// double harorat = double.Parse(selsiy);
+// double farenheit = (harorat * 9 / 5) + 32;
+// double kelvin = harorat + 273.15;
+
+// System.Console.WriteLine($"Celsius: {harorat:F2}");
+// System.Console.WriteLine($"Fahrenheit: {farenheit:F2}");
+// System.Console.WriteLine($"Kelvin: {kelvin:F2}");
+// System.Console.WriteLine($"Below zero: {harorat < 0}");
+
+// // 13-Masala
+// System.Console.Write("Ismingizni kiriting: ");
+// string ism = System.Console.ReadLine();
+// string userName = ism.Trim();
+// userName = userName.Replace(" ", "_");
+// userName = userName.ToUpperInvariant();
+// // string username = System.Text.RegularExpressions.Regex.Replace(userName, @"\s+", "_");
+
+// System.Console.WriteLine($"Original length: {ism.Length}");
+// System.Console.WriteLine($"Username: {userName}");
+// System.Console.WriteLine($"Username length: {userName.Length}");
+// System.Console.WriteLine("Contains underscore: " + userName.Contains("_"));
+// System.Console.WriteLine("Length in range: " + (userName.Length >= 5 && userName.Length <= 12));
+
+// // 14-Masala
+// System.Console.Write("Kitobxonning yoshini kiriting: ");
+// string yosh = System.Console.ReadLine();
+// int yoshInt = int.Parse(yosh);
+
+// System.Console.Write("kutubxona kartasi borligini kiriting (true/false): ");
+// string kartasiBor = System.Console.ReadLine();
+// bool kartasiBorBool = bool.Parse(kartasiBor);
+
+// System.Console.Write("kechiktirilgan kitob borligini kiriting (true/false): ");
+// string kechiktirilganKitob = System.Console.ReadLine();
+// bool kechiktirilganKitobBool = bool.Parse(kechiktirilganKitob);
+
+// // Natijalarni chiqarish
+// System.Console.WriteLine($"Age requirement met: {yoshInt >= 14}");
+// System.Console.WriteLine("Can borrow: " + (yoshInt >= 14 && kartasiBorBool && !kechiktirilganKitobBool));
+// System.Console.WriteLine("Needs assistance: " + (!kartasiBorBool || kechiktirilganKitobBool));
+
+// 15-Masala
+System.Console.Write("Enter a number: ");
